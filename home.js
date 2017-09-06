@@ -201,7 +201,7 @@
          for (var i = 0; i < offView.length; i++) {
           
              offView[i].classList.add("iview");
-             $("#header-menu-trigger,.scroll-icon").addClass("display")
+             $("#header-menu-trigger,.scroll-icon,.scroll-icon-text").addClass("display")
              offView[i].classList.remove("off-view");
              body.classList.add("loaded");
 

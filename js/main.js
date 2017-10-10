@@ -149,8 +149,8 @@ enableDrag:false
 			var target = this.hash,
 			$target    = $(target);
 	 	
-		 	e.preventDefault();
-		 	e.stopPropagation();	   	
+		 	//e.preventDefault();
+		 	//e.stopPropagation();	   	
 
 	    	$('html, body').stop().animate({
 	       	'scrollTop': $target.offset().top
